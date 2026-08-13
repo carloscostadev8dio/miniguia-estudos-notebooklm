@@ -1,279 +1,403 @@
 # miniguia-estudos-notebooklm
 # 🚀 Equipe Vento Norte UEA — Processo Seletivo 2026
+Link: https://notebook.google.com/notebook/bb6b2bd1-16a1-4ed4-ab4d-2c0fc53c8291
+# 🧠 Aprendizado com NotebookLM
 
-> **Aprenda. Construa. Lance.**
+Este repositório também documenta o processo de utilização do **NotebookLM** como ferramenta de apoio à pesquisa, organização e revisão dos conteúdos relacionados ao **Processo Seletivo 2026 da Equipe Vento Norte UEA**.
 
-Bem-vindo ao repositório de preparação para o **Processo Seletivo 2026 da Equipe Vento Norte UEA**, equipe pioneira em **foguetemodelismo na Região Norte** e dedicada ao desenvolvimento de tecnologias aeroespaciais experimentais.
+O objetivo não foi apenas obter respostas da IA, mas desenvolver uma metodologia para:
 
-A Vento Norte reúne estudantes da **Universidade do Estado do Amazonas (UEA)** em um ambiente multidisciplinar que integra **ensino, pesquisa e extensão**, proporcionando experiências práticas de engenharia, gestão e inovação.
-
-Nosso objetivo é formar estudantes capazes de transformar conhecimento em projetos reais e preparar a equipe para competições de alto nível, como a **Latin America Space Challenge (LASC)**.
-
----
-
-## 🛰️ Sobre a Vento Norte
-
-A **Equipe Vento Norte** trabalha no desenvolvimento de **foguetes experimentais** e de tecnologias relacionadas à área aeroespacial.
-
-Mais do que construir foguetes, a equipe busca desenvolver pessoas.
-
-Durante a trajetória dentro do projeto, os integrantes têm contato com:
-
-* 🧪 Experimentação e pesquisa;
-* ⚙️ Engenharia e desenvolvimento de projetos;
-* 🛠️ Prototipagem e testes;
-* 📊 Gestão de projetos;
-* 💡 Resolução de problemas;
-* 🤝 Trabalho em equipe;
-* 🚀 Competições aeroespaciais.
-
-A experiência é construída de forma colaborativa, incentivando a **proatividade, curiosidade e disposição para aprender**.
-
-> **Você não precisa saber tudo para entrar. Precisa estar disposto a aprender e construir.**
+* 🔎 formular perguntas estratégicas;
+* 🧩 explorar diferentes formas de solicitar informações;
+* 📚 consolidar conteúdos provenientes dos documentos;
+* ✅ verificar respostas e referências;
+* 🛠️ identificar dificuldades e ajustar os prompts;
+* ♻️ criar prompts reutilizáveis para estudos futuros.
 
 ---
 
-## 🎯 Processo Seletivo 2026
+## 🎯 Objetivo da Pesquisa
 
-O processo seletivo foi estruturado para avaliar não apenas conhecimentos técnicos, mas também características importantes para o trabalho em equipe.
+Utilizar o NotebookLM para transformar os documentos do processo seletivo em um **miniguia de estudos estruturado**, facilitando a preparação para as diferentes etapas do processo seletivo.
 
-### Etapas
+A pesquisa buscou responder principalmente:
+
+1. Quais são os principais objetivos da Equipe Vento Norte?
+2. Quais conhecimentos são esperados dos candidatos?
+3. Quais são os fundamentos de cada área?
+4. Quais conceitos aparecem com maior frequência nos documentos?
+5. Como os métodos de trabalho, como **Kanban e PDCA**, são utilizados?
+6. Quais características comportamentais são valorizadas pela equipe?
+7. Como transformar os documentos em um plano eficiente de revisão?
+
+---
+
+# 🔎 Engenharia de Prompts
+
+Durante o estudo, os prompts foram sendo refinados para obter respostas mais **estruturadas, específicas e fundamentadas nos documentos fornecidos**.
+
+## Prompt 01 — Visão geral
+
+**Objetivo:** compreender o conteúdo geral dos documentos.
+
+> "Analise os documentos fornecidos e apresente um resumo geral do Processo Seletivo 2026 da Equipe Vento Norte UEA. Destaque objetivos, etapas, áreas de atuação, conhecimentos necessários e características esperadas dos candidatos."
+
+### Resultado esperado
+
+Obter uma visão inicial do processo seletivo antes de aprofundar cada área.
+
+### Limitação encontrada
+
+Uma pergunta muito ampla tende a produzir respostas resumidas, deixando alguns conceitos técnicos sem aprofundamento.
+
+---
+
+## Prompt 02 — Organização por áreas
+
+**Objetivo:** separar o conteúdo de acordo com as cinco áreas da equipe.
+
+> "Organize as informações dos documentos por área de atuação: Propulsão, Aerodinâmica, Sistemas, Gestão e Marketing. Para cada área, apresente os principais conceitos, conhecimentos necessários e possíveis pontos de atenção para um candidato."
+
+### Melhoria
+
+A divisão por áreas tornou a resposta mais fácil de consultar e permitiu transformar o material em um guia de estudos.
+
+---
+
+## Prompt 03 — Explicação para iniciantes
+
+**Objetivo:** compreender conceitos técnicos sem conhecimento prévio.
+
+> "Explique os principais conceitos técnicos apresentados nos documentos como se estivesse ensinando um estudante que nunca teve contato com foguetemodelismo. Utilize linguagem simples, exemplos práticos e destaque os conceitos que precisam ser memorizados."
+
+### Insight
+
+Solicitar explicitamente uma explicação para iniciantes ajudou a reduzir o excesso de termos técnicos e facilitou a compreensão dos conteúdos.
+
+---
+
+## Prompt 04 — Glossário
+
+**Objetivo:** identificar termos importantes.
+
+> "Com base exclusivamente nos documentos fornecidos, crie um glossário dos principais termos técnicos e administrativos encontrados. Para cada termo, apresente uma definição curta e explique sua importância no contexto da Equipe Vento Norte."
+
+### Resultado
+
+O prompt permitiu transformar conceitos espalhados pelos documentos em uma referência rápida para revisão.
+
+---
+
+## Prompt 05 — Preparação para a prova
+
+**Objetivo:** transformar o conteúdo em material de revisão.
+
+> "Com base nos documentos, crie um roteiro de estudos para o processo seletivo. Organize os assuntos por prioridade e indique quais conceitos devem ser compreendidos antes dos demais."
+
+### Aplicação
+
+O resultado foi utilizado para estruturar uma sequência de estudo baseada em **fundamentos → aprofundamento → revisão**.
+
+---
+
+## Prompt 06 — Simulação de prova
+
+**Objetivo:** testar a compreensão do conteúdo.
+
+> "Crie uma simulação de prova baseada exclusivamente nos documentos fornecidos. Elabore questões de diferentes níveis de dificuldade, incluindo questões conceituais e situações práticas. Não apresente as respostas imediatamente."
+
+Depois:
+
+> "Agora corrija minhas respostas utilizando os documentos como referência. Explique meus erros e indique quais conceitos preciso revisar."
+
+### Benefício
+
+Esse formato transformou o NotebookLM de uma ferramenta de consulta em uma ferramenta de **aprendizagem ativa**.
+
+---
+
+# 🛠️ Troubleshooting
+
+Durante a utilização da IA, algumas dificuldades podem aparecer. O processo de refinamento dos prompts foi importante para melhorar a qualidade das respostas.
+
+| Problema                      | Possível causa            | Solução                              |
+| ----------------------------- | ------------------------- | ------------------------------------ |
+| Resposta muito genérica       | Pergunta ampla demais     | Especificar o objetivo               |
+| Excesso de informações        | Escopo muito grande       | Dividir a pergunta em etapas         |
+| Termos difíceis               | Linguagem técnica         | Pedir explicação para iniciantes     |
+| Resposta pouco organizada     | Falta de estrutura        | Solicitar tópicos, tabelas ou etapas |
+| Informação sem contexto       | Pergunta pouco específica | Indicar o documento/assunto          |
+| Dificuldade para estudar      | Conteúdo muito extenso    | Pedir resumo + prioridades           |
+| Resposta não adequada à prova | Falta de direcionamento   | Solicitar foco no processo seletivo  |
+
+### Estratégia utilizada
+
+Em vez de tentar criar um único "prompt perfeito", o conteúdo foi explorado em ciclos:
 
 ```text
-📝 Prova Escrita
-       ↓
-🗣️ Entrevista
-       ↓
-🤝 Dinâmica em Grupo
-       ↓
-🚀 Seleção de Novos Membros
+Pergunta inicial
+      ↓
+Análise da resposta
+      ↓
+Identificação das lacunas
+      ↓
+Refinamento do prompt
+      ↓
+Nova resposta
+      ↓
+Validação
+      ↓
+Conteúdo consolidado
 ```
 
-As inscrições estão abertas até **agosto de 2026**.
-
-> Consulte o edital oficial para conferir datas, requisitos e demais informações do processo seletivo.
+Essa abordagem tornou o processo mais eficiente e reproduzível.
 
 ---
 
-## 🧩 Áreas de Atuação
+# 📚 Miniguia de Estudos
 
-O processo seletivo contempla **cinco áreas**:
+## 🚀 1. Foguetemodelismo
 
-### 🔥 Propulsão
+O foguetemodelismo envolve a aplicação prática de conhecimentos de engenharia, física, eletrônica e experimentação para projetar, construir e testar foguetes.
 
-Responsável pelo estudo e desenvolvimento dos sistemas relacionados à propulsão dos foguetes.
+O desenvolvimento de um foguete envolve diferentes subsistemas que precisam funcionar de maneira integrada.
 
-Entre os conhecimentos abordados estão conceitos de:
+### Conceitos fundamentais
 
-* Motores-foguete;
-* Combustão;
-* Propelentes;
-* Empuxo;
-* Desempenho de motores;
-* Segurança e testes.
-
----
-
-### 🌬️ Aerodinâmica
-
-Área responsável por estudar a interação do foguete com o ar e seu comportamento durante o voo.
-
-Alguns dos conceitos fundamentais incluem:
-
-* Forças aerodinâmicas;
-* Arrasto;
-* Sustentação;
+* Propulsão;
+* Aerodinâmica;
 * Estabilidade;
-* Centro de pressão;
-* Centro de massa;
-* Análise do voo.
+* Estrutura;
+* Sistemas eletrônicos;
+* Telemetria;
+* Testes;
+* Segurança.
 
 ---
 
-### 💻 Sistemas
+# 🔥 2. Propulsão
 
-Integra diferentes componentes eletrônicos e computacionais necessários para monitoramento e controle do foguete.
+A propulsão é responsável por gerar a força necessária para impulsionar o foguete.
 
-Entre os temas relacionados estão:
+### Conceitos importantes
 
-* Eletrônica;
+**Empuxo:** força produzida pelo sistema de propulsão que impulsiona o foguete.
+
+**Motor-foguete:** sistema responsável por produzir os gases de alta velocidade que geram o empuxo.
+
+**Combustão:** processo químico responsável pela liberação de energia utilizada na propulsão.
+
+### O que revisar
+
+* Funcionamento básico de motores;
+* Geração de empuxo;
+* Combustão;
+* Desempenho;
+* Segurança;
+* Testes experimentais.
+
+---
+
+# 🌬️ 3. Aerodinâmica
+
+A aerodinâmica estuda o comportamento do foguete quando ele se desloca através da atmosfera.
+
+### Conceitos importantes
+
+**Arrasto:** força que se opõe ao movimento do foguete através do ar.
+
+**Centro de massa:** ponto associado à distribuição de massa do foguete.
+
+**Centro de pressão:** ponto resultante das forças aerodinâmicas que atuam sobre o foguete.
+
+**Estabilidade:** capacidade do foguete de manter uma trajetória adequada durante o voo.
+
+### Relação fundamental
+
+A posição relativa entre **centro de massa** e **centro de pressão** é fundamental para compreender a estabilidade do foguete.
+
+---
+
+# 💻 4. Sistemas
+
+A área de Sistemas integra componentes eletrônicos e computacionais.
+
+### Conceitos importantes
+
 * Sensores;
-* Telemetria;
+* Microcontroladores;
 * Programação;
+* Eletrônica;
+* Telemetria;
 * Aquisição de dados;
 * Sistemas embarcados.
 
----
-
-### 📋 Gestão
-
-Responsável por organizar pessoas, recursos, tarefas e processos necessários para que os projetos avancem.
-
-A área trabalha com conceitos como:
-
-* Gestão de projetos;
-* Organização de tarefas;
-* Planejamento;
-* Kanban;
-* Ciclo PDCA;
-* Acompanhamento de resultados;
-* Trabalho colaborativo.
+O objetivo é permitir que informações relevantes sejam **medidas, processadas, armazenadas ou transmitidas** durante os testes e voos.
 
 ---
 
-### 📣 Marketing
+# 📊 5. Gestão
 
-Responsável pela comunicação e pela construção da presença da equipe dentro e fora da universidade.
+A engenharia não depende apenas de conhecimento técnico. Projetos também precisam ser planejados e organizados.
 
-Entre suas atividades estão:
+## Kanban
 
-* Comunicação;
+O Kanban permite visualizar o andamento das tarefas.
+
+Exemplo:
+
+```text
+BACKLOG → A FAZER → EM ANDAMENTO → EM REVISÃO → CONCLUÍDO
+```
+
+## PDCA
+
+O ciclo PDCA representa:
+
+* **Plan** — Planejar;
+* **Do** — Executar;
+* **Check** — Verificar;
+* **Act** — Agir/corrigir.
+
+O objetivo é criar um processo de **melhoria contínua**.
+
+---
+
+# 📣 6. Marketing
+
+Marketing é responsável por comunicar o trabalho da equipe e fortalecer sua presença.
+
+### Possíveis atividades
+
 * Produção de conteúdo;
 * Redes sociais;
-* Identidade visual;
 * Divulgação científica;
-* Captação de parceiros e patrocinadores;
-* Relacionamento com o público.
+* Identidade visual;
+* Comunicação;
+* Relacionamento com parceiros;
+* Captação de patrocinadores.
+
+Além da capacidade técnica, essa área exige criatividade, comunicação e organização.
 
 ---
 
-## 📚 Guia de Estudos
+# 🤝 7. Trabalho em Equipe
 
-Este repositório reúne materiais para auxiliar os candidatos na preparação para o processo seletivo.
+Um projeto aeroespacial exige integração entre diferentes áreas.
 
-Os conteúdos estão organizados para apresentar tanto os **fundamentos técnicos** quanto os **métodos de trabalho** utilizados pela equipe.
+Uma solução de engenharia raramente depende de apenas uma pessoa ou disciplina.
 
-### Conteúdos principais
+Por isso, características como:
 
-| Tema                  | Conteúdo                             |
-| --------------------- | ------------------------------------ |
-| 🚀 Foguetemodelismo   | Fundamentos de foguetes e voo        |
-| 🔥 Propulsão          | Empuxo, motores e combustão          |
-| 🌬️ Aerodinâmica      | Arrasto, estabilidade e forças       |
-| 💻 Sistemas           | Eletrônica, programação e sensores   |
-| 📊 Gestão             | Kanban, PDCA e gestão de projetos    |
-| 📣 Marketing          | Comunicação e divulgação             |
-| 🤝 Trabalho em equipe | Colaboração e resolução de problemas |
+* Proatividade;
+* Comunicação;
+* Responsabilidade;
+* Curiosidade;
+* Organização;
+* Capacidade de aprender;
+* Colaboração;
+
+são importantes para o desenvolvimento dos projetos.
 
 ---
 
-## 🔄 Métodos de Trabalho
+# 📖 Glossário
 
-A Vento Norte utiliza metodologias que ajudam a transformar ideias em resultados concretos.
+| Termo                   | Definição                                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------ |
+| **Aerodinâmica**        | Estudo das forças e do comportamento de corpos em movimento através do ar.           |
+| **Arrasto**             | Força que se opõe ao movimento de um corpo no ar.                                    |
+| **Centro de Massa**     | Ponto que representa a distribuição de massa de um corpo.                            |
+| **Centro de Pressão**   | Ponto associado à resultante das forças aerodinâmicas.                               |
+| **Empuxo**              | Força responsável por impulsionar o foguete.                                         |
+| **Estabilidade**        | Capacidade do foguete de manter um comportamento de voo adequado.                    |
+| **Kanban**              | Método visual para organizar e acompanhar o fluxo de tarefas.                        |
+| **PDCA**                | Método de melhoria contínua baseado em Planejar, Executar, Verificar e Agir.         |
+| **Propulsão**           | Conjunto de processos responsáveis por gerar movimento ao foguete.                   |
+| **Telemetria**          | Aquisição e transmissão de dados de um sistema à distância.                          |
+| **Sistemas Embarcados** | Sistemas computacionais integrados a equipamentos para executar funções específicas. |
+| **Prototipagem**        | Desenvolvimento de modelos para testar e validar ideias.                             |
+| **Foguetemodelismo**    | Prática de projetar, construir e lançar foguetes experimentais/modelos.              |
 
-### Kanban
+---
 
-O **Kanban** permite visualizar o fluxo de trabalho, organizar tarefas e acompanhar o progresso dos projetos.
+# ♻️ Prompts Reutilizáveis
 
-Um fluxo simplificado pode ser representado como:
+Os prompts abaixo podem ser utilizados em futuras sessões de estudo.
+
+### 📌 Resumo
+
+> "Resuma este conteúdo em tópicos, destacando os conceitos fundamentais e os pontos que precisam ser compreendidos para uma prova."
+
+### 📌 Explicação simples
+
+> "Explique este conceito como se eu estivesse aprendendo pela primeira vez. Use uma analogia e depois apresente a definição técnica."
+
+### 📌 Aprofundamento
+
+> "Aprofunde este assunto. Apresente os conceitos fundamentais, relações entre eles, exemplos práticos e possíveis aplicações em foguetes experimentais."
+
+### 📌 Comparação
+
+> "Compare os conceitos abaixo. Explique suas diferenças, semelhanças, aplicações e possíveis confusões entre eles."
+
+### 📌 Flashcards
+
+> "Transforme este conteúdo em flashcards de pergunta e resposta. Priorize conceitos fundamentais e informações que costumam ser confundidas."
+
+### 📌 Quiz
+
+> "Crie 10 questões sobre este conteúdo, começando com questões básicas e aumentando gradualmente a dificuldade. Não mostre as respostas."
+
+### 📌 Correção
+
+> "Analise minhas respostas utilizando os documentos como referência. Identifique os erros, explique cada um e indique quais conceitos devo revisar."
+
+### 📌 Revisão final
+
+> "Faça uma revisão final deste assunto em formato de checklist. Separe em: conceitos que preciso saber, conceitos que preciso compreender e conceitos que preciso praticar."
+
+### 📌 Identificação de lacunas
+
+> "Analise meu conhecimento sobre este assunto a partir das respostas abaixo. Identifique minhas principais lacunas e monte uma sequência de estudos para corrigi-las."
+
+---
+
+# 🧪 Metodologia de Aprendizado
+
+A principal conclusão obtida durante o uso do NotebookLM foi que a qualidade do resultado depende não apenas da ferramenta, mas também da **qualidade das perguntas feitas à IA**.
+
+O processo utilizado pode ser resumido em:
 
 ```text
-┌────────────┐    ┌──────────────┐    ┌─────────────┐
-│ A FAZER    │ →  │ EM ANDAMENTO │ →  │ CONCLUÍDO   │
-└────────────┘    └──────────────┘    └─────────────┘
+📄 DOCUMENTOS
+      ↓
+🔎 EXPLORAÇÃO
+      ↓
+💬 PROMPTS
+      ↓
+🤖 RESPOSTAS
+      ↓
+🧐 ANÁLISE CRÍTICA
+      ↓
+🛠️ REFINAMENTO
+      ↓
+📚 CONSOLIDAÇÃO
+      ↓
+🧠 APRENDIZADO
 ```
 
-### PDCA
-
-O **Ciclo PDCA** é utilizado para promover melhoria contínua:
-
-```text
-      ┌──────────┐
-      │  PLAN    │
-      └────┬─────┘
-           ↓
-      ┌──────────┐
-      │   DO     │
-      └────┬─────┘
-           ↓
-      ┌──────────┐
-      │  CHECK   │
-      └────┬─────┘
-           ↓
-      ┌──────────┐
-      │   ACT    │
-      └────┬─────┘
-           │
-           └──────→ Novo ciclo
-```
-
-A aplicação dessas metodologias ajuda a equipe a **planejar, executar, avaliar e melhorar continuamente** seus projetos.
+Dessa forma, o NotebookLM foi utilizado não apenas como um gerador de respostas, mas como uma ferramenta para **explorar, organizar, revisar e consolidar conhecimento**.
 
 ---
 
-## 🧠 O que estudar?
+## 🎓 Resultado Final
 
-O candidato não precisa chegar sabendo tudo.
+Ao final do processo, os documentos foram transformados em três recursos principais:
 
-O objetivo do guia é fornecer uma base para que você compreenda os principais conceitos relacionados à área escolhida e demonstre sua capacidade de **aprender, investigar e resolver problemas**.
+1. **📚 Resumos estruturados** — para compreender rapidamente os conteúdos;
+2. **📖 Glossário** — para revisar os principais conceitos;
+3. **♻️ Biblioteca de prompts** — para continuar utilizando IA como ferramenta de estudo.
 
-### Para se preparar:
+> **A ferramenta fornece respostas. O aprendizado acontece quando fazemos boas perguntas, analisamos as respostas e transformamos informação em conhecimento.**
 
-1. 📖 Leia o **edital**;
-2. 🗺️ Identifique a área de maior interesse;
-3. 📚 Estude os conceitos fundamentais;
-4. 🔎 Busque compreender, e não apenas memorizar;
-5. 🧠 Resolva questões e problemas;
-6. 🤝 Prepare-se para trabalhar em equipe;
-7. 🚀 Venha com disposição para aprender.
-
----
-
-## 🌎 Ensino, Pesquisa e Extensão
-
-A Vento Norte está inserida na proposta universitária de integração entre:
-
-**Ensino + Pesquisa + Extensão**
-
-Isso significa transformar o conhecimento adquirido em sala de aula em experiências práticas, projetos, experimentos e iniciativas que aproximam a universidade da sociedade.
-
----
-
-## 📁 Estrutura do Repositório
-
-```text
-📦 processo-seletivo-2026
-├── 📄 README.md
-├── 📜 edital/
-│   └── edital-2026.pdf
-├── 📚 guia-de-estudos/
-│   ├── propulsao/
-│   ├── aerodinamica/
-│   ├── sistemas/
-│   ├── gestao/
-│   └── marketing/
-└── 📝 materiais/
-    ├── exercicios/
-    └── referencias/
-```
-
----
-
-## 🚀 Por que participar?
-
-Entrar para a Vento Norte significa fazer parte de uma equipe multidisciplinar que busca transformar **curiosidade em conhecimento, conhecimento em tecnologia e tecnologia em experiência**.
-
-Você poderá aprender, construir, testar, errar, melhorar e trabalhar ao lado de outros estudantes interessados em tecnologia e exploração aeroespacial.
-
-> **O foguete é o resultado. O aprendizado é a missão. 🚀**
-
----
-
-## 📌 Informações importantes
-
-* **Processo:** Processo Seletivo Vento Norte UEA 2026
-* **Instituição:** Universidade do Estado do Amazonas — UEA
-* **Áreas:** Propulsão, Aerodinâmica, Sistemas, Gestão e Marketing
-* **Etapas:** Prova escrita, entrevista e dinâmica em grupo
-* **Inscrições:** até agosto de 2026
-* **Objetivo:** Formação e desenvolvimento de estudantes na área aeroespacial
-
----
-
-## ⭐ Boa preparação!
-
-Estude, questione, experimente e, principalmente, **não tenha medo de aprender algo novo**.
-
-**Nos vemos no processo seletivo. 🚀**
-
-**Equipe Vento Norte UEA**
